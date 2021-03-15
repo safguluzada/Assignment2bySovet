@@ -1,0 +1,25 @@
+create database webmobile2;
+
+create table users (
+id serial,
+course_name text,
+email text,
+password text,
+firstname text,
+surname text,
+country text,
+age text,
+gender text
+);
+
+create table courses (
+id serial,
+name text
+);
+
+insert into courses (name) values ('Web&mobile2');
+
+insert into courses (name) values ('CyberSecurity');
+
+db_username = postgres
+db_password = Baki1999
